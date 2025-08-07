@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-light-dark-gray: hsl(0, 0%, 17%);
+    --color-dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+    font-family: Rubik, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.upper-section {
+    background-image: url("./assets/images/pattern-bg-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .upper-section {
+        background-image: url("./assets/images/pattern-bg-desktop.png");
+    }
+}
