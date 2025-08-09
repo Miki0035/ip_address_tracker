@@ -34,8 +34,8 @@ Users should be able to:
 
 ### 🔗 Links
 
-- Solution URL: [React-IP-Address-Tracker](https://github.com/Miki0035/react-url-shorten)
-- Live Site URL: [IP-Tracker](https://react-url-shorten-cgay.onrender.com/)
+- Solution URL: [React-IP-Address-Tracker](https://github.com/Miki0035/ip_address_tracker)
+- Live Site URL: [IP-Tracker](https://ip-address-tracker-rw8d.onrender.com/)
 
 ## 🤔 My process
 
@@ -52,7 +52,7 @@ Users should be able to:
 
 ### 👨‍🏫 What I learned
 
-This project challenged me in how to retrieve API data from [IP Geolocation](https://geo.ipify.org) and render that data in a beautiful UI for any user using the app. Working with  Asynchronous programming in javascript is a bit challenging in that your app might break if there is something wrong  in retrieving the data and react can't render it. I The challenge also introduced me to the [React Leaflet](https://react-leaflet.js.org/) library that uses the [Leaflet](https://leafletjs.com/) to render a massive and interactive map for better user experience. I also had to use another API ,the [IP Geolocation](https://ip-api.com), inorder to get the Geographical location (latitude and longitude) of the user based on their IP address. This really expanded my knowledge of API integration and how  async programming works. Thanks 😃 [Frontend Mentor](https://www.frontendmentor.io) for expanding my knowledge with this project.
+This project challenged me in how to retrieve API data from [IP Geolocation](https://geo.ipify.org) and render that data in a beautiful UI for any user using the app. Working with  Asynchronous programming in javascript is a bit challenging in that your app might break if there is something wrong  in retrieving the data and react can't render it. I The challenge also introduced me to the [React Leaflet](https://react-leaflet.js.org/) library that uses the [Leaflet](https://leafletjs.com/) to render a massive and interactive map for better user experience. I also had to use another API ,the [IPwho](https://ipwho.is/), inorder to get the Geographical location (latitude and longitude) of the user based on their IP address. This really expanded my knowledge of API integration and how  async programming works. Thanks 😃 [Frontend Mentor](https://www.frontendmentor.io) for expanding my knowledge with this project.
 
 ### 🏃‍♂️ Continued development
 
