@@ -7,19 +7,19 @@ This is a solution to the [IP Address Tracker challenge on Frontend Mentor](http
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#💪-the-challenge)
-  - [Screenshot](#📸-screenshot)
-  - [Links](#🔗-links)
-- [My process](#🤔-my-process)
-  - [Built with](#🛠️-built-with)
-  - [What I learned](#👨‍🏫-what-i-learned)
-  - [Continued development](#🏃‍♂️-continued-development)
-  - [Useful resources](#📚-useful-resources)
-- [Author](#👨‍🦱-author)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
 ## Overview
 
-###  💪 The challenge
+### <a name="the-challenge">  💪 The challenge </a>
  
 Users should be able to:
 
@@ -28,18 +28,18 @@ Users should be able to:
 - See their own IP address on the map on the initial page load
 - Search for any IP addresses or domains and see the key information and location
 
-### 📸 Screenshot
+### <a name="screenshot"> 📸 Screenshot </a>
 
 ![desktop view](./public/ip_tracker.png)
 
-### 🔗 Links
+### <a name="links"> 🔗 Links </a>
 
 - Solution URL: [React-IP-Address-Tracker](https://github.com/Miki0035/ip_address_tracker)
 - Live Site URL: [IP-Tracker](https://ip-address-tracker-rw8d.onrender.com/)
 
-## 🤔 My process
+## <a name="my-process"> 🤔 My process </a>
 
-### 🛠️ Built with
+### <a name="built-with"> 🛠️ Built with </a>
 
 - Semantic HTML5 markup
 - Flexbox
@@ -50,23 +50,23 @@ Users should be able to:
 - [TailwindCSS](https://tailwindcss.com/) - TailwindCSS 
 - [React Spinner](https://www.davidhu.io/react-spinners/) - React Spinner
 
-### 👨‍🏫 What I learned
+### <a name="what-i-learned"> 👨‍🏫 What I learned </a>
 
 This project challenged me in how to retrieve API data from [IP Geolocation](https://geo.ipify.org) and render that data in a beautiful UI for any user using the app. Working with  Asynchronous programming in javascript is a bit challenging in that your app might break if there is something wrong  in retrieving the data and react can't render it. I The challenge also introduced me to the [React Leaflet](https://react-leaflet.js.org/) library that uses the [Leaflet](https://leafletjs.com/) to render a massive and interactive map for better user experience. I also had to use another API ,the [IPwho](https://ipwho.is/), inorder to get the Geographical location (latitude and longitude) of the user based on their IP address. This really expanded my knowledge of API integration and how  async programming works. Thanks 😃 [Frontend Mentor](https://www.frontendmentor.io) for expanding my knowledge with this project.
 
-### 🏃‍♂️ Continued development
+### <a name="continued-development">🏃‍♂️ Continued development </a>
 
 Areas that I want to focus more on are
 
 - Application Deployment (CI/CD pipleine)
 - Error handling 
 
-### 📚 Useful resources
+### <a name="useful-resources"> 📚 Useful resources </a>
 
 - [Alejandro AO - Software & Ai](https://www.youtube.com/watch?v=jD6813wGdBA&t=1991s) - This helped me understand how to use [React Leaflet](https://react-leaflet.js.org/) library
 - [ChatGPT](https://chatgpt.com) - This AI helped to implement how to re-route the leaflet map to the new IP Address provided by the user
 
-## 👨‍🦱 Author
+## <a name="author"> 👨‍🦱 Author </a>
 
 - Website - [Mikiyas Kebede](https://my-portfolio-pvae.onrender.com)
 - Frontend Mentor - [@Miki0035](https://www.frontendmentor.io/profile/Miki0035)
