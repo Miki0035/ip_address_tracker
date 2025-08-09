@@ -6,6 +6,7 @@ import marker from "./assets/images/icon-location.svg"
 import { Icon } from "leaflet";
 import { PuffLoader } from "react-spinners";
 import ReCenterMap from "./components/ReCenterMap"
+import { isValidIP } from "./util";
 
 
 type IPData = {
@@ -55,15 +56,6 @@ const App = () => {
   }
 
 
-  const isValidIP = (ip: string) => {
-    const ipv4Pattern =
-      /^(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}$/;
-
-    const ipv6Pattern =
-      /^(([0-9a-fA-F]{1,4}:){7}([0-9a-fA-F]{1,4}|:)|(([0-9a-fA-F]{1,4}:){1,7}:)|(([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4})|(([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2})|(([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3})|(([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4})|(([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5})|([0-9a-fA-F]{1,4}:)((:[0-9a-fA-F]{1,4}){1,6})|(:)((:[0-9a-fA-F]{1,4}){1,7}|:)|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}(([0-9]{1,3}\.){3}[0-9]{1,3})|([0-9a-fA-F]{1,4}:){1,4}:(([0-9]{1,3}\.){3}[0-9]{1,3}))$/;
-
-    return ipv4Pattern.test(ip) || ipv6Pattern.test(ip);
-  }
 
   const getIpLocation = async () => {
     setIsLoading(true)
